@@ -21,7 +21,7 @@ const dicionarioDeHiroki = {
     'silvo': 'Som agudo, assobio',
     'arrolo': 'Canto de ninar',
     'ternura': 'Afeto, meiguice',
-    viço: 'Aspecto jovem \n(2) Carinho excessivo',
+    'viço': 'Aspecto jovem \n(2) Carinho excessivo',
     'ventura': 'Boa sorte, destino favorável',
     'pálio': 'capa, manto',
     'inda': 'mesmo que "ainda", até esse instante',
@@ -79,6 +79,7 @@ function dicionario(string) {
             }
         }
     })
+    console.log(difficultyDic)
     console.log('\n')
     return {
         difficulty,
