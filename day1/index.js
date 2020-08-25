@@ -81,7 +81,7 @@ function dicionario(string) {
     })
     console.log('\n')
     return {
-        difficulty: difficulty,
+        difficulty,
         difficultyDic
     }
 }
